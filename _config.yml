@@ -1,11 +1,12 @@
 # Basic
-title: 龙翔九天
-subtitle: Xusl blog
-welcome_message: #<a href="https://github.com/onevcat/vno-jekyll" target="_blank">Download the theme</a>
-description: Vno Jekyll is a port of my Ghost theme vno.
-creator: <a href="http://onev.cat">@onevcat</a>
+title: Zen
+subtitle: 龙翔九天
+welcome_message: 欢迎！
+#<a href="https://github.com/onevcat/vno-jekyll" target="_blank">Download the theme</a>
+description: 个人技术日志.
+creator: <a mailto="xusl_@hotmail">@xusl</a>
 
-url: "http://vno.onevcat.com"
+url: "http://xusl.github.io"
 
 permalink: /:year/:month/:title/
 
@@ -23,7 +24,7 @@ blog_button:
 # Navigation buttons in the front page.
 nav:
     - {title: Projects, description: 个人代码仓库, url: 'http://github.com/xusl'}
-    # - {title: Another Button, description: A button, url: 'http://example.com'}
+    - {title: Android系统启动-Init篇, description: A button, url: 'http://gityuan.com/2016/02/05/android-init/'}
 
 # Pagination
 plugins: [jekyll-paginate]
