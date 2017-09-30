@@ -22,7 +22,7 @@ bindService 异常
 
 #### Problem
 
-绑定服务时抛出异常 'IllegalArgumentException: Service Intent must be explicit'
+绑定服务时抛出异常 *'IllegalArgumentException: Service Intent must be explicit'*
 ```java
 final Intent intent = new Intent();  
 intent.setAction("com.zen.action.BOOKMANAGER_SERVICE");  

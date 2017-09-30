@@ -1,8 +1,7 @@
 # Basic
 title: Zen
 subtitle: 龙翔九天
-welcome_message: 欢迎！
-#<a href="https://github.com/onevcat/vno-jekyll" target="_blank">Download the theme</a>
+welcome_message: <a href="http://xusl.github.com/#blog" target="_blank">欢迎进入我的博客！</a>
 description: 个人技术日志.
 creator: <a mailto="xusl_@hotmail">@xusl</a>
 
@@ -25,7 +24,9 @@ blog_button:
 nav:
     - {title: Projects, description: 个人代码仓库, url: 'http://github.com/xusl'}
     - {title: Android系统启动-Init篇, description: A button, url: 'http://gityuan.com/2016/02/05/android-init/'}
-
+    - {title: Markdown syntax, description: syntax, url: 'http://wowubuntu.com/markdown/'}
+    - {title: Markdown guide, description: 献给写作者的 Markdown 新手指南, url: 'http://www.jianshu.com/p/q81RER'}
+    
 # Pagination
 plugins: [jekyll-paginate]
 paginate: 10
