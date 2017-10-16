@@ -38,3 +38,18 @@ intent.setAction("com.zen.action.BOOKMANAGER_SERVICE");
 intent.setPackage(this.getPackageName());  
 bindService(intent,conn,Service.BIND_AUTO_CREATE);  
 ```
+
+---
+Android Webview gives net::ERR_CACHE_MISS message
+---
+Missing permission, 
+```xml
+<uses-permission android:name="android.permission.INTERNET"/>
+```xml
+
+net::ERR_PROXY_CONNECTION_FAILED
+解决方法：取消WiFi的代理。
+打开手机的设置—>在连接的WiFi将代理设置成无。
+
+maybe the Router set Proxy, you should change another Router that does not use proxy.
+
