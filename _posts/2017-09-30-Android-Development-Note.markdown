@@ -45,7 +45,7 @@ Android Webview gives net::ERR_CACHE_MISS message
 Missing permission, 
 ```xml
 <uses-permission android:name="android.permission.INTERNET"/>
-```xml
+```
 
 net::ERR_PROXY_CONNECTION_FAILED
 解决方法：取消WiFi的代理。
@@ -53,3 +53,14 @@ net::ERR_PROXY_CONNECTION_FAILED
 
 maybe the Router set Proxy, you should change another Router that does not use proxy.
 
+---
+android.support.test doest exist
+---
+add dependencies in build.gradle
+
+```groovy
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    testCompile 'junit:junit:4.12'
+```
