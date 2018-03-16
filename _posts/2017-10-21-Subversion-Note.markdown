@@ -27,3 +27,20 @@ svn://10.250.32.10:88/client 是远程SVN库的URL。如果需要用户名/密�
    （如果需要用户名/密码，则按提示输入。如果远程SVN库数据较多，需要慢慢等待）
 5）如果远程SVN库有了新的更新，只需重复执行步骤4即可。
 
+
+
+
+
+git svn clone svn://10.250.32.10:88/client/Android_Palmplay/branch/PalmplayGradleProj --no-metadata --no-minimize-url --authors-file=authors PalmplayNew
+
+
+
+authors: 
+
+xushenlong=xushenlong <xushenlong@transsnet.com>
+shikun=shikun <shikun@afmobilegroup.com>
+hexiangyang=hexiangyang <hexiangyang@afmobilegroup.com>
+hejianguo=hejianguo <hejianguo@afmobilegroup.com>
+
+
+
